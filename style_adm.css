@@ -1,0 +1,108 @@
+body {
+	position: relative;
+	margin: 0px auto;
+	font: 15pt "Mitr", Helvetica, Arial, sans-serif; 
+	color: #333;
+	background: url(css/img/about-bg.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.mrgnLeft {
+	margin-left: 50px;
+}
+.stats_table {
+	padding: 15px;
+	margin-bottom: 15px;
+	background: #fff;
+}
+.inlblock {
+	padding-top: 4.5px;
+	display: inline-block;
+}
+.paddfix {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.dopImg img {
+	margin-top: 10px;
+}
+.topmarg {
+	margin-top: 10px;
+}
+.butt-inf {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#descr {
+	font-size: 1.2em;
+	background-color: #fff;
+}
+.sect-headr {
+
+}
+#topprev {
+	float: left;
+}
+#topnext {
+	float: right;
+}
+.clearfix:after { 
+   content: '';
+    clear: both; 
+    display: block;
+}
+.centered {
+	margin: 0 auto;
+	text-align: middle;
+}
+.image_row_proto {
+	display:none;
+}
+
+.prj-item {
+    margin-bottom: 20px;
+}
+.prj-item a {
+	 position: relative;
+}
+.prj-item a img {
+    position: relative;
+    z-index: 5;
+}
+.minusMargbottom {
+	margin-bottom: 0 !important;
+}
+.hotLable {
+	margin-left: 5px;
+	font-size: 120%;
+}
+.margtop{
+	margin-top: 5px;
+}
+/**/
+.txtArea_proto {
+	display: none;
+}
+
+.ratio {
+    width: 100%; /* здесь можно установить любую нужную ширину */
+}
+
+.ratio-inner {
+    position: relative;
+    height: 0;
+    border: none;
+	overflow: hidden;
+}
+
+.ratio-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*background: #fff;*/
+}
+
+.ratio-4-3 {
+    padding-top: 65%; /* 100% ширины делим на 4 и умножаем на 3 */
+}
+/**/
